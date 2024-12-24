@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">Dash<span>Stack</span></div>
+    <nav>
+      <ul>
+        <li>Dashboard</li>
+        <li>Products</li>
+        <li>Favorites</li>
+        <li>Inbox</li>
+        <li>Order Lists</li>
+        <li>Product Stock</li>
+      </ul>
+      <h4>PAGES</h4>
+      <ul>
+        <li>Pricing</li>
+        <li>Calender</li>
+        <li class="active">To-Do</li>
+        <li>Contact</li>
+        <li>Invoice</li>
+        <li>UI Elements</li>
+        <li>Team</li>
+        <li>Table</li>
+      </ul>
+      <h4>Settings</h4>
+      <ul>
+        <li>Logout</li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main">
+    <header>
+      <input type="text" placeholder="Search" />
+      <div class="profile">
+        <img src="download.png" alt="profile" />
+        <span>KARL MARX</span>
+      </div>
+      <button class="add-task">Add New Task</button>
+    </header>
+
+    <div class="todo-container">
+      <h1>To-Do List</h1>
+      <ul class="todo-list">
+        <li class="task">
+          <span>Meeting with CEO</span>
+          <div class="icons">
+            <span class="star">&#9734;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+        <li class="task">
+          <span>Pick up kids from school</span>
+          <div class="icons">
+            <span class="star">&#9733;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+        <li class="task">
+          <span>Shopping with Brother</span>
+          <div class="icons">
+            <span class="star">&#9734;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+        <li class="task selected">
+          <input type="checkbox" checked />
+          <span>Review with HR</span>
+          <div class="icons">
+            <span class="delete">&#128465;</span>
+          </div>
+        </li>
+        <li class="task">
+          <span>Going to Dia's School</span>
+          <div class="icons">
+            <span class="star">&#9734;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+        <li class="task">
+          <span>Check design files</span>
+          <div class="icons">
+            <span class="star">&#9733;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+        <li class="task">
+          <span>Update File</span>
+          <div class="icons">
+            <span class="star">&#9734;</span>
+            <span class="delete">&#10006;</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
